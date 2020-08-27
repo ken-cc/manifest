@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch="https://github.com/ken-cc/"
+           review="https://github.com/ken-cc/" />
+  <default revision="master"
+           remote="origin"
+           sync-j="1"
+           sync-c="true" />
+  <project path="test" name="test"  revision="master" />
+  <project path="test_release" name="test_release" revision="release_v2" />
+</manifest>
