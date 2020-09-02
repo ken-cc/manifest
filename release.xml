@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch="https://github.com/ken-cc/"
+           review="https://github.com/ken-cc/" />
+  <default revision="master"
+           remote="origin"
+           sync-j="1"
+           sync-c="true" />
+  <project path="dir_a" name="test_a"  revision="master" />
+  <project path="dir_b" name="test_b" revision="master" />
+  <project path="dir_c" name="test_c" revision="master" />
+</manifest>
